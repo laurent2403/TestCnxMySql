@@ -1,0 +1,17 @@
+Test de connexion a une base de données MySql sur PhpMyAdmin
+
+
+***Pour la connexion à la base de données***
+-dbname = nom de la BDD
+-host = adresse de la BDD si c'est en local : localhost, si c'est distant 192.198.***.***
+-user = nom de l'utilisateur de la BDD
+-password = mot de passe pour acceder à la BDD
+
+
+$bdd = new PDO('mysql:host=localhost;dbname=db_test;charset=utf8', 'test_user', 'test@user');
+**********************host***********dbname**************************user********password****
+
+Le port du serveur de BDD MySql est 3210 à configurer dans phpMyAdmin
+
+
+
